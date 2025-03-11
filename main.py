@@ -10,14 +10,14 @@ tarefas = [
            status="Em andamento",
            data_inicio="20/07/25",
            professor="Moises",
-           observacoes="Matéria complicada").to_json(),
+           observacoes="Materia complicada").to_json(),
     Tarefa(task_id=2,
            titulo="Estudar Flask",
            descricao="Estudar Flask para aprender sobre Web Services",
-           status="Não iniciado",
+           status="Nao iniciado",
            data_inicio="16/01/2025",
            professor="Moises",
-           observacoes="Matéria fundamental").to_json()
+           observacoes="Materia fundamental").to_json()
 ]
 
 @app.route('/tasks', methods=['GET'])
